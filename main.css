@@ -107,8 +107,8 @@ You do not need to change this.
 .btn-page:active,
 .btn-page:focus {
     color: white;
-    background-color: #999999;
-    border-color: #999999;
+    background-color: #777;
+    border-color: #777;
     border-radius: 0px;
     font-family: Cabin-Regular;
     font-size: 15px;
@@ -122,7 +122,7 @@ You do not need to change this.
 .btn-page:hover {
     color: white;
     background-color: #ED7923;
-    background-color: #ED7923;
+    border-color: #ED7923;
 }
 
 a:hover {
@@ -166,7 +166,7 @@ a:hover {
 
 p {
     font-family: Cabin-regular;
-    color: #777777;
+    color: #777;
 }
 
 .btn-search-results {
@@ -232,7 +232,6 @@ Color Reference
 Blue:       #1F3D7C
 Green:      #047940
 Orange:     #ED7923
-Light Grey: #949599
-Dark Grey:  #777777 
+Grey:  #777 
 
 */
