@@ -57,10 +57,7 @@ You do not need to change this.
     font-size: 20px;
 }
 
-#btn-search {
-    height: 32px;
-    width: 32px;
-}
+
 
 
 
@@ -100,6 +97,7 @@ You do not need to change this.
     color: white;
     background-color: #1F3D7D;
     border-color: #1F3D7D;
+    border-radius: 0px;
     font-family: Cabin-Regular;
     font-size: 15px;
     margin: 1px !important;
@@ -111,8 +109,10 @@ You do not need to change this.
     color: white;
     background-color: #999999;
     border-color: #999999;
+    border-radius: 0px;
     font-family: Cabin-Regular;
     font-size: 15px;
+    margin: 0px !important;
 }
 
 .btn-folder:hover {
@@ -127,6 +127,21 @@ You do not need to change this.
 
 a:hover {
     text-decoration: none;
+}
+
+.btn-icon,
+.btn-icon:active,
+.btn-icon:focus {
+    height: 32px;
+    width: 32px;
+    color: white;
+    background-color: #1F3D7D;
+    border-color: #1F3D7D;
+    border-radius: 0px;
+}
+
+.btn-icon:hover {
+    color: #ED7922;
 }
 
 
