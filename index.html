@@ -62,13 +62,13 @@
                     </div>
                     
                     
-                    <!-- Expand/Collapse Buttons 
+                    <!-- Expand/Collapse Buttons -->
                     <div class="panel-group">
-                        <button id= "btn-expand" class="btn btn-folder btn-block" type="button" onclick="expandAll()">Expand All Folders</button>
-                    </div> -->
+                        <button id= "btn-expand" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target=".collapse:not(.in)">EXPAND ALL</button>
+                    </div>
                     
                     <div class="panel-group">
-                        <button id= "btn-collapse" class="btn btn-folder btn-block" type="button" onclick="collapseAll()">COLLAPSE ALL</button>
+                        <button id= "btn-collapse" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target=".in"">COLLAPSE ALL</button>
                     </div>
                     
 
@@ -201,8 +201,6 @@
                  </div>
             </div>
         </div>
-        
-        
         
         
     </body>

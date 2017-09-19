@@ -14,24 +14,6 @@ function changeContent(button) {
     document.getElementById("printarea").innerHTML = content;
 }
 
-// Collapses all open folders
-function collapseAll() {
-    var folders = document.getElementsByClassName("in");
-    for (var i = folders.length-1; i >=0; i--) {
-        folders[i].setAttribute("class", "panel-collapse collapse");
-    }
-    
-}
-
-// Expands all closed folders
-function expandAll() {
-    var folders = document.getElementsByClassName("panel-collapse collapse");
-    for (var i = 0; i < folders.length; i++) {
-        folders[i].setAttribute("class", "panel-collapse collapse in");
-    }
-    
-}
-
 // Searches page names for search text and displays the options in content
 function search() {
     var searchText = document.getElementById('search').value;
@@ -97,9 +79,3 @@ function previous() {
     content += contentArray[prev]["Page Content"];
     document.getElementById("printarea").innerHTML = content;
 }
-
-
-
-
-
-
