@@ -38,7 +38,7 @@ You do not need to change this.
 .jumbotron {
     padding: 10px;
     margin-bottom: 10px;
-    border-top: 5px solid #ED7922;
+    border-top: 5px solid #ED7923;
     
 }
 
@@ -48,7 +48,7 @@ You do not need to change this.
 }
 
 .header h1 {
-    color: #1F3D7D;
+    color: #1F3D7C;
     font-size: 56px;
     font-family: Cabin-Regular;
 }
@@ -95,8 +95,8 @@ You do not need to change this.
 .btn-folder:active,
 .btn-folder:focus {
     color: white;
-    background-color: #1F3D7D;
-    border-color: #1F3D7D;
+    background-color: #1F3D7C;
+    border-color: #1F3D7C;
     border-radius: 0px;
     font-family: Cabin-Regular;
     font-size: 15px;
@@ -116,13 +116,13 @@ You do not need to change this.
 }
 
 .btn-folder:hover {
-    color: #ED7922;
+    color: #ED7923;
 }
 
 .btn-page:hover {
     color: white;
-    background-color: #ED7922;
-    background-color: #ED7922;
+    background-color: #ED7923;
+    background-color: #ED7923;
 }
 
 a:hover {
@@ -135,13 +135,13 @@ a:hover {
     height: 32px;
     width: 32px;
     color: white;
-    background-color: #1F3D7D;
-    border-color: #1F3D7D;
+    background-color: #1F3D7C;
+    border-color: #1F3D7C;
     border-radius: 0px;
 }
 
 .btn-icon:hover {
-    color: #ED7922;
+    color: #ED7923;
 }
 
 
@@ -151,16 +151,16 @@ a:hover {
 #pageTitle {
     font-family: BebasKai-Regular;
     font-size: 40px;
-    color: #ED7922;
+    color: #ED7923;
 }
 
 .filePath {
     color: white;
     background: #047A40; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left, #047A40 , white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #047A40, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #047A40, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #047A40 , white); /* Standard syntax */
+    background: -webkit-linear-gradient(left, #047940 , white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #047940, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #047940, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #047940 , white); /* Standard syntax */
     padding: 3px;
 }
 
@@ -171,7 +171,7 @@ p {
 
 .btn-search-results {
     background-color: white;
-    color: #1F3D7D;
+    color: #1F3D7C;
     border-color: white;
     padding: 0px;
     margin: 3px;
@@ -180,7 +180,7 @@ p {
 
 .btn-search-results:hover {
     background-color: white;
-    color: #047A40;
+    color: #047940;
     border-color: white;
 }
 
@@ -229,9 +229,9 @@ src: url('Fonts/BebasKai-Regular.otf');
 
 Color Reference
 
-Blue:       #1F3D7D
-Green:      #047A40
-Orange:     #ED7922
+Blue:       #1F3D7C
+Green:      #047940
+Orange:     #ED7923
 Light Grey: #949599
 Dark Grey:  #777777 
 
