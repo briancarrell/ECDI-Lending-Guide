@@ -18,6 +18,9 @@ To add a page, copy and paste this inside the array:
 
 You can then replace the info with the actual contents you want to add.
 Index should be in numerical order according to the order in the navigation.
+You will need to change the index value of other pages if you want to add a page in the middle
+of the navigation.  If you do this, simply increase the index value of all pages after the new one
+by the number of new pages you add.
 
 Here is some basic HTML info to help you add new content.
 If this doesn't make sense, you can look at w3schools.com to help you.
