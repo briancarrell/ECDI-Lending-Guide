@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ECDI Lending Guide</title>
+        <meta name="description" content="An index of all ECDI lending materials.">
+        
+        <!-- Bootstrap defaults -->
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <!-- Custom Javascript and CSS -->
+        <script src="contentArray.js"></script>
+        <script src="functions.js"></script>
+        <link rel="stylesheet" href="main.css">
+        
+    </head>
+    <body>
+        
+        <!-- Header -->
+        <div class="jumbotron">
+            <div class="container-fluid">
+                <div class="row vertical-align">
+                    <div class="col-sm-3 horizontal-align header">
+                        <img id='logo' src="Images/ecdi-logo.jpg">
+                    </div>
+                    <div class="col-sm-6 horizontal-align header">
+                        <h1>LENDING GUIDE</h1>
+                    </div>
+                    <div class="col-sm-3 horizontal-align header">
+                        <div class="input-group" id="search-bar">
+                            <input type="text" class="form-control" placeholder="Search" id="search" autofocus="on"/>
+                            <div class="input-group-btn" id="search-button">
+                                <button class="btn btn-folder" id="btn-search" type="button" onclick="search()">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Header -->
+        
+        
+        
+        <!-- Page Content -->
+        <div class="container-fluid">
+            <div class="row">
+                
+                
+                <!-- Side Navigation -->
+                <div class="col-sm-2 pre-scrollable">
+                    
+                    <!-- Home Page Button -->
+                    <div class="panel-group">
+                        <button id= "Lending Guide Home Page" class="btn btn-folder btn-block" type="button" onclick="changeContent(this)">HOME PAGE</button>
+                    </div>
+                    
+                    
+                    <!-- Expand/Collapse Buttons 
+                    <div class="panel-group">
+                        <button id= "btn-expand" class="btn btn-folder btn-block" type="button" onclick="expandAll()">Expand All Folders</button>
+                    </div> -->
+                    
+                    <div class="panel-group">
+                        <button id= "btn-collapse" class="btn btn-folder btn-block" type="button" onclick="collapseAll()">COLLAPSE ALL</button>
+                    </div>
+                    
+
+                    <!-- TODO insert real contents -->
+                    <!-- Folder 1 -->
+                    <div class="panel-group">
+                        <button id= "btn-1" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseFolder1">FOLDER 1</button>
+                        <div id="collapseFolder1" class="panel-collapse collapse">
+                            
+                            <!-- Page 1.1 -->
+                            <div class="list-group-item">
+                                <button id= "Page 1.1" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">PAGE 1.1</button>
+                            </div>
+                
+                            <!-- Page 1.2 -->
+                            <div class="list-group-item">
+                                <button id= "Page 1.2" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">PAGE 1.2</button>
+                            </div>
+                            
+                            <!-- Page 1.3 -->
+                            <div class="list-group-item">
+                                <button id= "Page 1.3" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">PAGE 1.3</button>
+                            </div>
+                                    
+                                    
+                            <!-- Paste New Page or Sub-Folder Above This Line -->
+                        </div>
+                    </div>
+                
+                    
+                    
+                    
+                    <!-- Folder 2 -->
+                    <div class="panel-group">
+                        <button id= "btn-2" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseFolder2">FOLDER 2</button>
+                        <div id="collapseFolder2" class="panel-collapse collapse">
+                            
+                            
+                            <!-- Sub-Folder 2.1 -->
+                            <div class="list-group-item">
+                                    <button id= "btn-2-1" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseFolder2-1">FOLDER 2.1</button>
+                                <div id="collapseFolder2-1" class="panel-collapse collapse">
+                                    
+                                    <!-- Page 2.1.1 -->
+                                    <div class="list-group-item">
+                                        <button id= "Page 2.1.1" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">PAGE 2.1.1</button>
+                                    </div>
+                                    
+                                    <!-- Page 2.1.2 -->
+                                    <div class="list-group-item">
+                                        <button id= "Page 2.1.2" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">PAGE 2.1.2</button>
+                                    </div>
+                                    
+                                    <!-- Page 2.1.3 -->
+                                    <div class="list-group-item">
+                                        <button id= "Page 2.1.3" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">PAGE 2.1.3</button>
+                                    </div>
+                                                        
+                                                        
+                                    <!-- Paste New Page or Sub-Folder Above This Line -->               
+                                </div>
+                            </div>
+                            
+                            <!-- Page 2.2 -->
+                            <div class="list-group-item">
+                                <button id= "Page 2.2" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">PAGE 2.2</button>
+                            </div>
+                            
+                            <!-- Page 2.3 -->
+                            <div class="list-group-item">
+                                <button id= "Page 2.3" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">PAGE 2.3</button>
+                            </div>
+                                    
+                                    
+                            <!-- Paste New Page or Sub-Folder Above This Line -->
+                        </div>
+                    </div>
+                    
+                    
+                    
+                <!-- Paste New Folder Above This Line -->
+                </div>
+                <!-- End of Side Navigation -->
+                
+                
+                
+                <!-- Content of Page -->
+                <div id ="content" class="col-sm-10 pre-scrollable">
+                    <div id="printarea">
+                    <p class="filePath">Home Page</p>
+                    <h1 id="pageTitle">Lending Guide Home Page</h1>
+                    <p>All of your resources for lending.</p>
+                    <p>Lorem ipsum dolor sit amet, commune pericula eum ne, usu ut vitae instructior, cu vel mucius delicata gloriatur. No interesset consectetuer ius, eum choro intellegebat cu. Est euismod atomorum neglegentur ex. Sit ex quidam omnium, sea modus tractatos eu. Meis mollis ei vix.</p>
+                    <p>Cum an omnis fuisset, has id commodo erroribus definitionem, stet ullum placerat ex sea. Elit sanctus ei qui, ex quo suavitate consetetur. Aliquip scripta ex eam. Dicit patrioque ne sed, option pertinax assueverit qui eu. Ad nisl unum vis, atqui partem salutatus ea sed. Ea qui quas iusto voluptua, ne eius consectetuer quo.</p>
+                    <p>Solet laudem posidonium sed eu, cu maiorum intellegat eam, fierent moderatius constituam ex pro. Vix et nibh menandri vulputate, ea sit sumo malis recteque. Error graeco dissentias sit et, ex paulo oporteat hendrerit qui, ad nominavi vulputate vim. Et adhuc zril qui. Sit error graeco facilisi in, cum ei fastidii propriae qualisque. Eos cetero vulputate eu, amet erant cu cum.</p>
+                    <p>Quo id equidem scripserit. His an nihil iudico, at nec animal persius. Id commodo delectus contentiones sea. Error electram est no. Et per sint facete dicunt, cu pro illud persecuti voluptaria. Ei iriure gubergren ius, at pericula pertinacia vituperata est, ceteros accusamus neglegentur ut ius.</p>
+                    <p>Cu eum quodsi epicuri constituto. Diceret periculis in vix, ea vitae facilis definitionem cum. Ne sed prima lobortis maiestatis. Audire noluisse similique ea sea, te has facer petentium, vis stet movet omittantur at. Eum ne tibique percipit facilisis, usu id audiam legimus intellegebat. Vis nullam cetero no, nec meis nusquam partiendo ea.</p>
+                    <p>Lorem ipsum dolor sit amet, commune pericula eum ne, usu ut vitae instructior, cu vel mucius delicata gloriatur. No interesset consectetuer ius, eum choro intellegebat cu. Est euismod atomorum neglegentur ex. Sit ex quidam omnium, sea modus tractatos eu. Meis mollis ei vix.</p>
+                    <p>Cum an omnis fuisset, has id commodo erroribus definitionem, stet ullum placerat ex sea. Elit sanctus ei qui, ex quo suavitate consetetur. Aliquip scripta ex eam. Dicit patrioque ne sed, option pertinax assueverit qui eu. Ad nisl unum vis, atqui partem salutatus ea sed. Ea qui quas iusto voluptua, ne eius consectetuer quo.</p>
+                    <p>Solet laudem posidonium sed eu, cu maiorum intellegat eam, fierent moderatius constituam ex pro. Vix et nibh menandri vulputate, ea sit sumo malis recteque. Error graeco dissentias sit et, ex paulo oporteat hendrerit qui, ad nominavi vulputate vim. Et adhuc zril qui. Sit error graeco facilisi in, cum ei fastidii propriae qualisque. Eos cetero vulputate eu, amet erant cu cum.</p>
+                    <p>Quo id equidem scripserit. His an nihil iudico, at nec animal persius. Id commodo delectus contentiones sea. Error electram est no. Et per sint facete dicunt, cu pro illud persecuti voluptaria. Ei iriure gubergren ius, at pericula pertinacia vituperata est, ceteros accusamus neglegentur ut ius.</p>
+                    <p>Cu eum quodsi epicuri constituto. Diceret periculis in vix, ea vitae facilis definitionem cum. Ne sed prima lobortis maiestatis. Audire noluisse similique ea sea, te has facer petentium, vis stet movet omittantur at. Eum ne tibique percipit facilisis, usu id audiam legimus intellegebat. Vis nullam cetero no, nec meis nusquam partiendo ea.</p>
+                    
+                    
+                    </div>
+                </div>
+                <!-- End of Page Content -->
+                
+            </div>
+        </div>
+        
+        <div class = "footer">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-sm-4">
+                         <button class="btn btn-folder" id="btn-prev" type="button" onclick="previous()">
+                             <span class="glyphicon glyphicon-arrow-left"></span>
+                         </button>
+                     <label>Previous</label>
+                     </div>
+                    
+                     <div class="col-sm-4"></div>
+                     
+                     <div class="col-sm-4 right-align">
+                         <label>Next</label>
+                         <button class="btn btn-folder" id="btn-next" type="button" onclick="next()">
+                             <span class="glyphicon glyphicon-arrow-right"></span>
+                         </button>
+                     </div>
+                 </div>
+            </div>
+        </div>
+        
+        
+        
+        
+    </body>
+</html>
+
+
+
+
+
+<!--
+TODO: Update this
+When pasting, remove spaces between dashes in comments (where it goes - ->)
+
+New Folder or Sub-Folder: 
+
+                    
+
+
+New Page within Folder:
+
+
+
+
+-->

@@ -1,0 +1,225 @@
+/*
+
+This document contains all of the styling for the document.
+You do not need to change this.
+
+*/
+
+
+
+
+
+
+
+
+
+
+/* Classes available to any object */
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.horizontal-align {
+    text-align: center;
+}
+
+.right-align {
+    text-align: right;
+}
+
+/* Classes and ids related specifically to the header */
+
+#logo {
+    width: 310px;
+}
+
+.jumbotron {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-top: 5px solid #ED7922;
+    
+}
+
+.header {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header h1 {
+    color: #1F3D7D;
+    font-size: 56px;
+    font-family: Cabin-Regular;
+}
+
+#search {
+    font-size: 20px;
+}
+
+#btn-search {
+    height: 34px;
+    width: 34px;
+}
+
+
+
+/* Classes and ids related specifically to the Side Navigation */
+
+.pre-scrollable {
+    height: 480px;
+    max-height: 480px;
+}
+
+.panel-group {
+    margin: 1px;
+}
+
+.list-group-item {
+    padding: 0px;
+    color: white;
+    margin: 1px;
+    margin-left: 15px;
+}
+
+.btn {
+    color: white;
+    font-size: 12px;
+    padding: 3px;
+    margin: 0px;
+}
+
+.btn-folder,
+.btn-folder:active,
+.btn-folder:focus {
+    color: white;
+    background-color: #1F3D7D;
+    border-color: #1F3D7D;
+    font-family: Cabin-Regular;
+    font-size: 15px;
+}
+
+.btn-page,
+.btn-page:active,
+.btn-page:focus {
+    color: white;
+    background-color: #999999;
+    border-color: #999999;
+    font-family: Cabin-Regular;
+    font-size: 15px;
+}
+
+.btn-folder:hover {
+    color: #ED7922;
+}
+
+.btn-page:hover {
+    color: white;
+    background-color: #ED7922;
+    background-color: #ED7922;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#btn-collapse {
+    margin-bottom: 7px;
+}
+
+#btn-0 {
+    margin-bottom: 7px;
+}
+
+
+
+/*  Classes related to content */
+
+#pageTitle {
+    font-family: BebasKai-Regular;
+    font-size: 40px;
+    color: #ED7922;
+}
+
+.filePath {
+    color: white;
+    background: #047A40; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #047A40 , white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #047A40, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #047A40, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #047A40 , white); /* Standard syntax */
+    padding: 3px;
+}
+
+p {
+    font-family: Cabin-regular;
+    color: #777777;
+}
+
+.btn-search-results {
+    background-color: white;
+    color: #1F3D7D;
+    border-color: white;
+    padding: 0px;
+    margin: 3px;
+    text-align: left;
+}
+
+.btn-search-results:hover {
+    background-color: white;
+    color: #047A40;
+    border-color: white;
+}
+
+.searchTitle {
+    padding: 0px;
+    margin: 0px;
+    font-family: BebasKai-Regular;
+}
+
+.searchPath {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Fonts */
+
+@font-face
+{
+font-family: Cabin-Regular;
+src: url('Fonts/Cabin-Regular.otf');
+}
+
+@font-face
+{
+font-family: BebasKai-Regular;
+src: url('Fonts/BebasKai-Regular.otf');
+}
+
+/* Print Settings */
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printarea, #printarea * {
+    visibility: visible;
+  }
+  #printarea {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+}
+
+/*
+
+Color Reference
+
+Blue:       #1F3D7D
+Green:      #047A40
+Orange:     #ED7922
+Light Grey: #949599
+Dark Grey:  #777777 
+
+*/
