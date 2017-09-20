@@ -60,91 +60,127 @@
                     <div class="panel-group">
                         
                         <!-- Home Page Button -->
-                        <button id= "Lending Guide Home Page" class="btn btn-folder btn-block" type="button" onclick="changeContent(this)">HOME PAGE</button>
+                        <button id= "Home Page" class="btn btn-folder btn-block" type="button" onclick="changeContent(this)">Home Page</button>
                     
                         <!-- Expand/Collapse Buttons -->
-                        <button id= "btn-expand" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target=".collapse:not(.in)">EXPAND ALL</button>
-                        <button id= "btn-collapse" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target=".in">COLLAPSE ALL</button>
+                        <button id= "btn-expand" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target=".collapse:not(.in)">Expand All</button>
+                        <button id= "btn-collapse" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target=".in">Collapse All</button>
                     </div>
                     
                     <!-- TODO insert real contents -->
                     <!-- File Structure -->
                     <div id="sideNav" class="panel-group pre-scrollable">
-                        <!-- Folder 1 -->
-                        <button id= "btn-1" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseFolder1">FOLDER 1</button>
-                        <div id="collapseFolder1" class="panel-collapse collapse">
+                        <!-- Lending Policies -->
+                        <button id= "btn-lending-policies" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseLendingPolicies">Lending Policies</button>
+                        <div id="collapseLendingPolicies" class="panel-collapse collapse">
+                              
                             
-                            <!-- Page 1.1 -->
+                            <!-- Insurance -->
                             <div class="list-group-item">
-                                <button id= "Page 1.1" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">PAGE 1.1</button>
-                            </div>
-                
-                            <!-- Page 1.2 -->
-                            <div class="list-group-item">
-                                <button id= "Page 1.2" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">PAGE 1.2</button>
-                            </div>
-                            
-                            <!-- Page 1.3 -->
-                            <div class="list-group-item">
-                                <button id= "Page 1.3" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">PAGE 1.3</button>
-                            </div>
+                                <button id= "btn-insurance" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseInsurance">Insurance</button>
+                                <div id="collapseInsurance" class="panel-collapse collapse">
                                     
-                                    
-                            <!-- Paste New Page or Sub-Folder Above This Line -->
-                        </div>
-                    
-                
-                    
-                    
-                    
-                    <!-- Folder 2 -->
-                        <button id= "btn-2" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseFolder2">FOLDER 2</button>
-                        <div id="collapseFolder2" class="panel-collapse collapse">
-                            
-                            
-                            <!-- Sub-Folder 2.1 -->
-                            <div class="list-group-item">
-                                    <button id= "btn-2-1" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseFolder2-1">FOLDER 2.1</button>
-                                <div id="collapseFolder2-1" class="panel-collapse collapse">
-                                    
-                                    <!-- Page 2.1.1 -->
+                                    <!-- General Insurance -->
                                     <div class="list-group-item">
-                                        <button id= "Page 2.1.1" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">PAGE 2.1.1</button>
+                                        <button id= "General Insurance" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">General Insurance</button>
                                     </div>
                                     
-                                    <!-- Page 2.1.2 -->
+                                    <!-- Liability Insurance -->
                                     <div class="list-group-item">
-                                        <button id= "Page 2.1.2" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">PAGE 2.1.2</button>
+                                        <button id= "Liability Insurance" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">Liability Insurance</button>
                                     </div>
                                     
-                                    <!-- Page 2.1.3 -->
+                                    <!-- Automobile Insurance -->
                                     <div class="list-group-item">
-                                        <button id= "Page 2.1.3" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">PAGE 2.1.3</button>
+                                        <button id= "Automobile Insurance" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">Auto Insurance</button>
                                     </div>
-                                                        
-                                                        
-                                    <!-- Paste New Page or Sub-Folder Above This Line -->               
+                                    
+                                    <!-- Property Insurance -->
+                                    <div class="list-group-item">
+                                        <button id= "Property Insurance" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">Property Insurance</button>
+                                    </div>
+                                    
+                                    <!-- Paste New Page or Sub-Folder Above This Line -->
                                 </div>
                             </div>
                             
-                            <!-- Page 2.2 -->
-                            <div class="list-group-item">
-                                <button id= "Page 2.2" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">PAGE 2.2</button>
-                            </div>
-                            
-                            <!-- Page 2.3 -->
-                            <div class="list-group-item">
-                                <button id= "Page 2.3" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">PAGE 2.3</button>
-                            </div>
-                                    
                                     
                             <!-- Paste New Page or Sub-Folder Above This Line -->
                         </div>
+                    
+                
+                    
+                    
+                    
+                        <!-- Loan Programs -->
+                        <button id= "btn-loan-programs" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseLoanPrograms">Loan Programs</button>
+                        <div id="collapseLoanPrograms" class="panel-collapse collapse">
+                         
+                                    
+                            <!-- Paste New Page or Sub-Folder Above This Line -->
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        <!-- Operations P+P -->
+                        <button id= "btn-operations-p-p" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseOperationsPP">Operations P+P</button>
+                        <div id="collapseOperationsPP" class="panel-collapse collapse">
+                          
+                            <!-- Page Name -->
+                            <div class="list-group-item">
+        <button id= "Insurance Requirements" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">Insurance Reqs</button>
+                            </div>
+                            
+                            <!-- Closing -->
+                            <div class="list-group-item">
+                                <button id= "btn-closing" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseClosing">Closing</button>
+                                <div id="collapseClosing" class="panel-collapse collapse">
+                             
+                                    <!-- Loan Docs -->
+                                    <div class="list-group-item">
+                                        <button id= "btn-loan-doc" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseLoanDocs">Loan Docs</button>
+                                        <div id="collapseLoanDocs" class="panel-collapse collapse">
+                                    
+                                  
+                                            <!-- Closing Instructions -->
+                                            <div class="list-group-item">
+                                                <button id= "Closing Instructions" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">Instructions</button>
+                                            </div>
+                                
+                                            <!-- Paste New Page or Sub-Folder Above This Line -->
+                                        </div>
+                                    </div>
+                            
+                                    
+                                    <!-- Paste New Page or Sub-Folder Above This Line -->
+                                </div> 
+                            </div>
+                                    
+                            <!-- Paste New Page or Sub-Folder Above This Line -->
+                        </div>
+                        
+                     
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <!-- Compliance -->
+                        <button id= "btn-compliance" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseCompliance">Complaince</button>
+                        <div id="collapseCompliance" class="panel-collapse collapse">
+                                    
+                                    
+                            <!-- Paste New Page or Sub-Folder Above This Line -->
+                        </div> 
+                        
+                        <!-- Paste New Folder Above This Line -->
                     </div>
                     
                     
-                    
-                <!-- Paste New Folder Above This Line -->
                 </div>
                 <!-- End of Side Navigation -->
                 
@@ -154,7 +190,7 @@
                 <div id ="content" class="col-sm-10 pre-scrollable">
                     <div id="printarea">
                         <p class="filePath">Home Page</p>
-                        <h1 id="pageTitle">Lending Guide Home Page</h1>
+                        <h1 id="pageTitle">Home Page</h1>
                         <p>All of your resources for lending.</p>
                         <p>Lorem ipsum dolor sit amet, commune pericula eum ne, usu ut vitae instructior, cu vel mucius delicata gloriatur. No interesset consectetuer ius, eum choro intellegebat cu. Est euismod atomorum neglegentur ex. Sit ex quidam omnium, sea modus tractatos eu. Meis mollis ei vix.</p>
                         <p>Cum an omnis fuisset, has id commodo erroribus definitionem, stet ullum placerat ex sea. Elit sanctus ei qui, ex quo suavitate consetetur. Aliquip scripta ex eam. Dicit patrioque ne sed, option pertinax assueverit qui eu. Ad nisl unum vis, atqui partem salutatus ea sed. Ea qui quas iusto voluptua, ne eius consectetuer quo.</p>
@@ -210,7 +246,7 @@
 TODO: Update this
 When pasting, remove spaces between dashes in comments (where it goes - ->)
 
-New Folder or Sub-Folder: 
+New Folder: 
 
 <!-- Folder name - ->
 <button id= "btn-folder-name" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseFolderName">FOLDER NAME</button>
@@ -221,11 +257,24 @@ New Folder or Sub-Folder:
 </div>                    
 
 
+New Sub-Folder:
+
+<!-- Folder name - ->
+<div class="list-group-item">
+    <button id= "btn-folder-name" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseFolderName">FOLDER NAME</button>
+    <div id="collapseFolderName" class="panel-collapse collapse">
+                                    
+                                    
+        <!-- Paste New Page or Sub-Folder Above This Line - ->
+    </div>
+</div>
+
+
 New Page within Folder:
 
-<!-- Page 2.3 - ->
+<!-- Page Name - ->
 <div class="list-group-item">
-    <button id= "Page Name" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">PAGE NAME</button>
+    <button id= "Page Name" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">Page Name</button>
 </div>
 
 

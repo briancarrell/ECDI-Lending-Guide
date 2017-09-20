@@ -169,6 +169,16 @@ p {
     color: #777;
 }
 
+li {
+    font-family: Cabin-regular;
+    color: #777;
+}
+
+h4 {
+    font-family: Cabin-regular;
+    color: #777;
+}
+
 .btn-search-results {
     background-color: white;
     color: #1F3D7C;
