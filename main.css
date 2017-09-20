@@ -63,14 +63,13 @@ You do not need to change this.
 
 /* Classes and ids related specifically to the Side Navigation */
 
-#content {
-    height: 475px;
-    max-height: 475px;
-}
-
 #sideNav {
     height: 378px;
     max-height: 378px;
+}
+
+#sideNav button {
+    text-align: left;
 }
 
 .panel-group {
@@ -80,8 +79,8 @@ You do not need to change this.
 .list-group-item {
     padding: 0px;
     color: white;
-    margin: 1px;
-    margin-left: 15px;
+    margin: 0px;
+    margin-left: 10px;
 }
 
 .btn {
@@ -148,6 +147,11 @@ a:hover {
 
 /*  Classes related to content */
 
+#content {
+    height: 475px;
+    max-height: 475px;
+}
+
 #pageTitle {
     font-family: BebasKai-Regular;
     font-size: 40px;
@@ -203,6 +207,15 @@ h4 {
 .searchPath {
     padding: 0px;
     margin: 0px;
+}
+
+.float {
+    float: left;
+    margin-bottom: 15px;
+}
+
+.floatBreak {
+    clear: both;
 }
 
 /* Fonts */
