@@ -13,7 +13,7 @@ To add a page, copy and paste this inside the array:
         'Index': #,
         'File Path': "<p class='filePath'>Folder Title > Page Title</p>",
         'Page Title': "<h1 id='pageTitle'>Page Title</h1>",
-        'Page Content': "<p>Insert Text Here</p>"
+        'Page Content': "<p>Insert Text Here</p><br><br><br>"
     },
 
 You can then replace the info with the actual contents you want to add.
@@ -52,6 +52,15 @@ So a table with two rows and three columns would look like this:
     </tr>
 </table>
 
+
+Lists can be either ordered or unordered.
+<ol> tags are for ordered lists and can have type="" A, a, I, i, or 1.
+<ul> tags are for unordered lists (bullet points).
+Each list item must also be inside an <li></li> tag.
+Lists can be nested by placing the <ol> or <ul> tag inside an <li> tag.
+
+<br> tags are used to create an empty line.
+These are helpful for keeping text away from the bottom of the page, or spacing out elements.
 
 When you add anything to the array, the whole item must still be in quotations,
 and there can't be any line breaks between elements (just type it all on one line).
@@ -127,7 +136,7 @@ var contentArray = {
         'Index': 6,
         'File Path': "<p class='filePath'>Operations Policies+Procedures > Closing > Loan Documents > Closing Instructions</p>",
         'Page Title': "<h1 id='pageTitle'>Closing Instructions</h1>",
-        'Page Content': "<h4>**WATCH SAVING… USE SAVE AS INTO CORRESPONDING FOLDER**</h4><p>L:drive  loan doc’s (FY11-12)</p><ol type='1'><li>Loan doc data sheet (info summary)<ol type='a'><li>Payments always come 30-40 days after close, on 1st or 15th; 60 = standard term</li><li>Maturity date manually needs changed</li><li>Funding sources in order</li><li>Checks</li></ol></li><li>Amortization Table</li></ol><p>->Auto Doc’s</p><ol type='1'><li>Cognovit Note<ol type='a'><li>mail to: finish & merge -> from 1:1<ol type='i'><li>With more than one guarantors, 1:2/3/4, etc. </li></ol></li><li>Must manually enter co-borrower signature/initial lines</li></ol></li><li>Personal Guarantees<ol type='a'><li>Only doc signed by guarantors</li><li>Fill in name for personal guarantors (does not auto populate) and final signature line</li><li></li>Fill in initials</ol></li><li>Business Loan Agreements<ol type='a'><li>Fill in borrowers (bottom page 2)</li><li>Fill in all lines for co-borrowers</li></ol></li><li>Security Agreement<ol type='a'><li>Watch header – year will be shoved onto line 2</li><li>Fill in all lines for signatures</li><li>Anything required by loan review comm. must be on security agreement</li><li>Use: collateral folder for specifics</li></ol></li></ol><p>->Closing Document Originals</p><p>Fill in all details for:</p><ol type='1'><li>ACH authorization</li><li>Loan Closing Receipt & Fee Receipt</li><li>Resolution for Borrowing (if partnership, LLC)</li><li>SBA Debarment (if SBA funds used)</li><li>SBA fee agreement (if SBA funds used)</li><li>Errors and Omissions Agreement</li><li>First Source Hiring</li><li>Info Release</li><li>Job Creation</li><li>Child Support Form</li></ol><br><br><br>"
+        'Page Content': "<h4>**WATCH SAVING… USE SAVE AS INTO CORRESPONDING FOLDER**</h4><p>L:drive  loan doc’s (FY11-12)</p><ol type='1'><li>Loan doc data sheet (info summary)<ol type='a'><li>Payments always come 30-40 days after close, on 1st or 15th; 60 = standard term</li><li>Maturity date manually needs changed</li><li>Funding sources in order</li><li>Checks</li></ol></li><li>Amortization Table</li></ol><p>->Auto Doc’s</p><ol type='1'><li>Cognovit Note<ol type='a'><li>mail to: finish & merge -> from 1:1<ol type='i'><li>With more than one guarantors, 1:2/3/4, etc. </li></ol></li><li>Must manually enter co-borrower signature/initial lines</li></ol></li><li>Personal Guarantees<ol type='a'><li>Only doc signed by guarantors</li><li>Fill in name for personal guarantors (does not auto populate) and final signature line</li><li>Fill in initials</li></ol></li><li>Business Loan Agreements<ol type='a'><li>Fill in borrowers (bottom page 2)</li><li>Fill in all lines for co-borrowers</li></ol></li><li>Security Agreement<ol type='a'><li>Watch header – year will be shoved onto line 2</li><li>Fill in all lines for signatures</li><li>Anything required by loan review comm. must be on security agreement</li><li>Use: collateral folder for specifics</li></ol></li></ol><p>->Closing Document Originals</p><p>Fill in all details for:</p><ol type='1'><li>ACH authorization</li><li>Loan Closing Receipt & Fee Receipt</li><li>Resolution for Borrowing (if partnership, LLC)</li><li>SBA Debarment (if SBA funds used)</li><li>SBA fee agreement (if SBA funds used)</li><li>Errors and Omissions Agreement</li><li>First Source Hiring</li><li>Info Release</li><li>Job Creation</li><li>Child Support Form</li></ol><br><br><br>"
     }
     
             // End of Loan Docs
