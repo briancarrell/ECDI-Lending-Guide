@@ -73,7 +73,9 @@ You do not need to change this.
 }
 
 .panel-group {
+    margin: 0px;
     margin-bottom: 7px;
+    padding: 0px;
 }
 
 .list-group-item {
@@ -81,6 +83,7 @@ You do not need to change this.
     color: white;
     margin: 0px;
     margin-left: 10px;
+    border-style: none;
 }
 
 .btn {
@@ -99,7 +102,9 @@ You do not need to change this.
     border-radius: 0px;
     font-family: Cabin-Regular;
     font-size: 15px;
-    margin: 1px !important;
+    margin: 0px !important;
+    padding: 0px;
+    padding-left: 2px;
 }
 
 .btn-page,
@@ -112,10 +117,14 @@ You do not need to change this.
     font-family: Cabin-Regular;
     font-size: 15px;
     margin: 0px !important;
+    padding: 0px;
+    padding-left: 2px;
 }
 
 .btn-folder:hover {
-    color: #ED7923;
+    color: white;
+    background-color: #047A40;
+    border-color: #047A40;
 }
 
 .btn-page:hover {
@@ -140,7 +149,9 @@ a:hover {
 }
 
 .btn-icon:hover {
-    color: #ED7923;
+    color: white;
+    background-color: #047A40;
+    border-color: #047A40;
 }
 
 
