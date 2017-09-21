@@ -120,6 +120,26 @@ You do not need to change this.
     padding-left: 2px;
 }
 
+.btn-active,
+.btn-active:active,
+.btn-active:focus {
+    color: white;
+    background-color: #047940;
+    border-color: #047940;
+    border-radius: 0px;
+    font-family: Cabin-Regular;
+    font-size: 15px;
+    margin: 0px !important;
+    padding: 0px;
+    padding-left: 2px;
+}
+
+.btn-active:hover {
+    color: white;
+    background-color: #047A40;
+    border-color: #047A40;
+}
+
 .btn-folder:hover {
     color: white;
     background-color: #047A40;
@@ -308,6 +328,6 @@ Color Reference
 Blue:       #1F3D7C
 Green:      #047940
 Orange:     #ED7923
-Grey:  #777 
+Grey:       #777 
 
 */
