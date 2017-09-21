@@ -54,7 +54,7 @@ You do not need to change this.
 }
 
 #search {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 
@@ -64,8 +64,7 @@ You do not need to change this.
 /* Classes and ids related specifically to the Side Navigation */
 
 #sideNav {
-    height: 378px;
-    max-height: 378px;
+    max-height: 77vh;
 }
 
 #sideNav button {
@@ -133,8 +132,13 @@ You do not need to change this.
     border-color: #ED7923;
 }
 
+a {
+    color: #1F3D7C;
+}
+
 a:hover {
     text-decoration: none;
+    color: #047A40;
 }
 
 .btn-icon,
@@ -159,8 +163,7 @@ a:hover {
 /*  Classes related to content */
 
 #content {
-    height: 475px;
-    max-height: 475px;
+    max-height: 77vh;
 }
 
 #pageTitle {
@@ -227,6 +230,45 @@ h4 {
 
 .floatBreak {
     clear: both;
+}
+
+.modal-content {
+    width: 850px;
+}
+
+.modal-dialog {
+    margin-left: 150px;
+}
+
+.close,
+.close:active,
+.close:focus {
+    height: 32px;
+    width: 32px;
+    color: white;
+    background-color: #1F3D7C !important;
+    border-color: #1F3D7C !important;
+    border-radius: 0px;
+    opacity: 1 !important;
+    text-shadow: none !important;
+}
+
+.close:hover {
+    color: white !important;
+    background-color: #047A40 !important;
+    border-color: #047A40 !important;
+}
+
+.modal-title {
+    color: #047940;
+}
+
+img {
+    width: 415px;
+}
+
+.img-lg {
+    width: 830px;
 }
 
 /* Fonts */

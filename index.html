@@ -78,13 +78,8 @@
                             
                             <!-- Insurance -->
                             <div class="list-group-item">
-                                <button id= "btn-insurance" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseInsurance">Insurance</button>
+                                <button id= "Insurance" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseInsurance" onclick="changeContent(this)">Insurance</button>
                                 <div id="collapseInsurance" class="panel-collapse collapse">
-                                    
-                                    <!-- General Insurance -->
-                                    <div class="list-group-item">
-                                        <button id= "General Insurance" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">General</button>
-                                    </div>
                                     
                                     <!-- Liability Insurance -->
                                     <div class="list-group-item">
@@ -104,10 +99,12 @@
                                     <!-- Paste New Page or Sub-Folder Above This Line -->
                                 </div>
                             </div>
+                            <!-- End of Insurance Folder -->
                             
                                     
                             <!-- Paste New Page or Sub-Folder Above This Line -->
                         </div>
+                        <!-- End of Lending Policies Folder -->
                         
                         
                         
@@ -119,6 +116,7 @@
                                     
                             <!-- Paste New Page or Sub-Folder Above This Line -->
                         </div>
+                        <!-- End of Loan Programs -->
                         
                         
                         
@@ -151,14 +149,17 @@
                                             <!-- Paste New Page or Sub-Folder Above This Line -->
                                         </div>
                                     </div>
+                                    <!-- End of Loan Docs Folder -->
                             
                                     
                                     <!-- Paste New Page or Sub-Folder Above This Line -->
                                 </div> 
                             </div>
+                            <!-- End of Closing Folder -->
                                     
                             <!-- Paste New Page or Sub-Folder Above This Line -->
                         </div>
+                        <!-- End of Operations P+P Folder -->
                         
                         
                         
@@ -170,17 +171,18 @@
                                     
                             <!-- Paste New Page or Sub-Folder Above This Line -->
                         </div> 
+                        <!-- End of Compliance Folder -->
                         
                         
                         
                         
                         <!-- Paste New Folder Above This Line -->
                     </div>
+                    <!-- End of File Structure -->
                     
                     
                 </div>
                 <!-- End of Side Navigation -->
-                
                 
                 
                 <!-- Content of Page -->
@@ -205,33 +207,26 @@
                 </div>
                 <!-- End of Page Content -->
                 
+                
+                <!-- Prev/Next Buttons -->
+                <div class="col-sm-1 horizontal-align">
+                    <br>
+                    <button class="btn btn-icon" id="btn-prev" type="button" onclick="previous()">
+                        <span class="glyphicon glyphicon-arrow-up"></span>
+                    </button><br>
+                     <label>Previous</label>
+                    <br><br>
+                    <label>Next</label><br>
+                    <button class="btn btn-icon" id="btn-next" type="button" onclick="next()">
+                        <span class="glyphicon glyphicon-arrow-down"></span>
+                    </button>
+                </div>
+                <!-- End of Prev/Next Buttons -->
+                
+                
             </div>
         </div>
         <!-- End of Page Content -->
-        
-        <!-- Footer -->
-        <div class = "footer">
-             <div class="container">
-                 <div class="row">
-                     <div class="col-sm-4">
-                         <button class="btn btn-icon" id="btn-prev" type="button" onclick="previous()">
-                             <span class="glyphicon glyphicon-arrow-left"></span>
-                         </button>
-                     <label>Previous</label>
-                     </div>
-                    
-                     <div class="col-sm-4"></div>
-                     
-                     <div class="col-sm-4 right-align">
-                         <label>Next</label>
-                         <button class="btn btn-icon" id="btn-next" type="button" onclick="next()">
-                             <span class="glyphicon glyphicon-arrow-right"></span>
-                         </button>
-                     </div>
-                 </div>
-            </div>
-        </div>
-        <!-- End of Footer -->
         
         
     </body>
