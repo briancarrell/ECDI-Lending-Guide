@@ -198,6 +198,7 @@ a:hover {
 
 p {
     font-family: Cabin-regular;
+    font-size: 16px;
     color: #777;
 }
 
@@ -283,6 +284,12 @@ img {
 
 .img-lg {
     width: 830px;
+}
+
+.inline {
+    padding: 0px;
+    font-size: 16px;
+    margin: 0px;
 }
 
 /* Fonts */
