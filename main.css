@@ -124,20 +124,14 @@ You do not need to change this.
 .btn-active:active,
 .btn-active:focus {
     color: white;
-    background-color: #047940;
-    border-color: #047940;
+    background-color: #ED7923;
+    border-color: #ED7923;
     border-radius: 0px;
     font-family: Cabin-Regular;
     font-size: 15px;
     margin: 0px !important;
     padding: 0px;
     padding-left: 2px;
-}
-
-.btn-active:hover {
-    color: white;
-    background-color: #047A40;
-    border-color: #047A40;
 }
 
 .btn-folder:hover {
@@ -148,8 +142,8 @@ You do not need to change this.
 
 .btn-page:hover {
     color: white;
-    background-color: #ED7923;
-    border-color: #ED7923;
+    background-color: #047A40;
+    border-color: #047A40;
 }
 
 a {
