@@ -32,6 +32,11 @@ function search() {
     var searchText = document.getElementById('search').value;
     // Make sure there is actually text being searched for
     if (searchText.length>=1) {
+        // Remove btn-active since you are no longer on a page
+        var current = document.getElementsByClassName("btn-active");
+        for (var i = 0; i<current.length; i++) {
+            current[i].classList.remove("btn-active");
+        }
         // Set up the new content
         var pageTitle = "";
         var pageContent = "";
