@@ -73,7 +73,7 @@ function search() {
             if (pageTitle.toUpperCase().search(searchText.toUpperCase())!=-1 || filePath.toUpperCase().search(searchText.toUpperCase())!=-1) {
             } else if (pageContent.toUpperCase().search(searchText.toUpperCase())!=-1) {
                 // If the text is in the content, add a button to content
-                content += '<button id= "'+pageTitle+'" class="btn btn-search-results" type="button" onclick="changeContent(this)"data-toggle="collapse" data-target=".collapse:not(.in)"><h2 class="searchTitle">'+pageTitle+'</h2><p class="searchPath">'+filePath+'</p></button><br>';
+                content += '<button id= "'+pageTitle+'" class="btn btn-search-results" type="button" onclick="changeContent(this)" data-toggle="collapse" data-target=".collapse:not(.in)"><h2 class="searchTitle">'+pageTitle+'</h2><p class="searchPath">'+filePath+'</p></button><br>';
             }
         }
         // Change the content of the page
