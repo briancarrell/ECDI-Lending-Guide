@@ -47,13 +47,25 @@ function search() {
                 content += '<button id= "'+pageTitle+'" class="btn btn-search-results" type="button" onclick="changeContent(this)"><h2 class="searchTitle">'+pageTitle+'</h2><p class="searchPath">'+filePath+'</p></button><br>';
             }
         }
-        // Check for search text in the page content
+        // Check for search text in the file path
         for (var page in contentArray) {
             pageTitle= contentArray[page]["Page Title"].substring(19,contentArray[page]["Page Title"].length-5);
             pageContent= contentArray[page]["Page Content"];
             filePath = contentArray[page]["File Path"].substring(20,contentArray[page]["File Path"].length-4);
             // Makes sure any page with the text in the title doesn't get added again
             if (pageTitle.toUpperCase().search(searchText.toUpperCase())!=-1) {
+            } else if (filePath.toUpperCase().search(searchText.toUpperCase())!=-1) {
+                // If the text is in the content, add a button to content
+                content += '<button id= "'+pageTitle+'" class="btn btn-search-results" type="button" onclick="changeContent(this)"><h2 class="searchTitle">'+pageTitle+'</h2><p class="searchPath">'+filePath+'</p></button><br>';
+            }
+        }
+        // Check for search text in the page content
+        for (var page in contentArray) {
+            pageTitle= contentArray[page]["Page Title"].substring(19,contentArray[page]["Page Title"].length-5);
+            pageContent= contentArray[page]["Page Content"];
+            filePath = contentArray[page]["File Path"].substring(20,contentArray[page]["File Path"].length-4);
+            // Makes sure any page with the text in the title or file path doesn't get added again
+            if (pageTitle.toUpperCase().search(searchText.toUpperCase())!=-1 || filePath.toUpperCase().search(searchText.toUpperCase())!=-1) {
             } else if (pageContent.toUpperCase().search(searchText.toUpperCase())!=-1) {
                 // If the text is in the content, add a button to content
                 content += '<button id= "'+pageTitle+'" class="btn btn-search-results" type="button" onclick="changeContent(this)"><h2 class="searchTitle">'+pageTitle+'</h2><p class="searchPath">'+filePath+'</p></button><br>';
