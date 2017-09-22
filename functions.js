@@ -135,3 +135,4 @@ function previous() {
         document.getElementById("printarea").innerHTML = content;
     }
 }
+
