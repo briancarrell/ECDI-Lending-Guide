@@ -8,10 +8,17 @@ You do not need to edit this document.
 // Changes the content of the page to the correct page's content.
 function changeContent(button) {
     var content = "";
+    var current = document.getElementsByClassName("btn-active");
+    for (var i = 0; i<current.length; i++) {
+        current[i].classList.remove("btn-active");
+    }
+    var clickedButton = contentArray[button.id]["Page Title"].substring(19,contentArray[button.id]["Page Title"].length-5);
+    document.getElementById(clickedButton).classList.add("btn-active");
     content += contentArray[button.id]["File Path"];
     content += contentArray[button.id]["Page Title"];
     content += contentArray[button.id]["Page Content"];
     document.getElementById("printarea").innerHTML = content;
+    
 }
 
 // Searches page names for search text and displays the options in content
@@ -48,34 +55,44 @@ function search() {
 function next() {
     var currentPageTitle = document.getElementById("pageTitle").innerHTML;
     var currentIndex = contentArray[currentPageTitle]["Index"];
-    var next;
-    for (var page in contentArray) {
-        if (contentArray[page]["Index"] == currentIndex+1) {
-            next = contentArray[page]["Page Title"].substring(19,contentArray[page]["Page Title"].length-5);
+    if (currentIndex!=Object.keys(contentArray).length-1) {
+        var currentButton = document.getElementById(currentPageTitle);
+        currentButton.classList.remove("btn-active");
+        var next;
+        for (var page in contentArray) {
+            if (contentArray[page]["Index"] == currentIndex+1) {
+                next = contentArray[page]["Page Title"].substring(19,contentArray[page]["Page Title"].length-5);
+            }
         }
+        var nextButton = document.getElementById(next);
+        nextButton.classList.add("btn-active");
+        var content = "";
+        content += contentArray[next]["File Path"];
+        content += contentArray[next]["Page Title"];
+        content += contentArray[next]["Page Content"];
+        document.getElementById("printarea").innerHTML = content;
     }
-    
-    var content = "";
-    content += contentArray[next]["File Path"];
-    content += contentArray[next]["Page Title"];
-    content += contentArray[next]["Page Content"];
-    document.getElementById("printarea").innerHTML = content;
 }
 
 // Moves to the previous page
 function previous() {
     var currentPageTitle = document.getElementById("pageTitle").innerHTML;
     var currentIndex = contentArray[currentPageTitle]["Index"];
-    var prev;
-    for (var page in contentArray) {
-        if (contentArray[page]["Index"] == currentIndex-1) {
-            prev = contentArray[page]["Page Title"].substring(19,contentArray[page]["Page Title"].length-5);
+    if (currentIndex!=0) {
+        var currentButton = document.getElementById(currentPageTitle);
+        currentButton.classList.remove("btn-active");
+        var prev;
+        for (var page in contentArray) {
+            if (contentArray[page]["Index"] == currentIndex-1) {
+                prev = contentArray[page]["Page Title"].substring(19,contentArray[page]["Page Title"].length-5);
+            }
         }
+        var prevButton = document.getElementById(prev);
+        prevButton.classList.add("btn-active");
+        var content = "";
+        content += contentArray[prev]["File Path"];
+        content += contentArray[prev]["Page Title"];
+        content += contentArray[prev]["Page Content"];
+        document.getElementById("printarea").innerHTML = content;
     }
-    
-    var content = "";
-    content += contentArray[prev]["File Path"];
-    content += contentArray[prev]["Page Title"];
-    content += contentArray[prev]["Page Content"];
-    document.getElementById("printarea").innerHTML = content;
 }
