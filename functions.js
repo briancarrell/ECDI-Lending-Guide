@@ -25,6 +25,15 @@ function changeContent(button) {
 
 
 
+function enterSearch(event) {
+    if (event.which == 13 || event.keyCode == 13) {
+        search();
+        return false;
+    }
+    return true;
+}
+
+
 
 // Searches page names for search text and displays the options in content
 function search() {
