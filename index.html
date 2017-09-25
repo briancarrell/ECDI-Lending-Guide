@@ -113,7 +113,63 @@
                         <button id= "Loan Programs" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseLoanPrograms" onclick="changeContent(this)">Loan Programs</button>
                         <div id="collapseLoanPrograms" class="panel-collapse collapse">
                          
+                            <!-- Refinance -->
+                            <div class="list-group-item">
+                                <button id= "Refinance" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">Refinance</button>
+                            </div>
+                            <!-- End of Refinance -->
                                     
+                            <!-- Founders Signature Loan -->
+                            <div class="list-group-item">
+                                <button id= "Founders Signature Loan" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">Founders Signature</button>
+                            </div>
+                            <!-- End of Founders Signature Loan -->
+                                     
+                            <!-- Spring Special -->
+                            <div class="list-group-item">
+                                <button id= "Spring Special" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">Spring Special</button>
+                            </div>
+                            <!-- End of Spring Special -->
+                            
+                            <!-- Microloans -->
+                            <div class="list-group-item">
+                                <button id= "Microloans" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseMicroloans" onclick="changeContent(this)">Microloans</button>
+                                <div id="collapseMicroloans" class="panel-collapse collapse">
+                                    
+                                    <!-- $10K or Less -->
+                                    <div class="list-group-item">
+                                        <button id= "$10K or Less" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapse10K" onclick="changeContent(this)">$10K or Less</button>
+                                        <div id="collapse10K" class="panel-collapse collapse">
+                                    
+                                            <!-- Launch Loan: Tier 1 -->
+                                            <div class="list-group-item">
+                                                <button id= "Launch Loan: Tier 1" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">Launch Loan: Tier 1</button>
+                                            </div>
+                                            
+                                            <!-- Launch Loan: Tier 2 -->
+                                            <div class="list-group-item">
+                                                <button id= "Launch Loan: Tier 2" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">Launch Loan: Tier 2</button>
+                                            </div>
+                                            
+                                            <!-- $10,000 Term Loans -->
+                                            <div class="list-group-item">
+                                                <button id= "$10,000 Term Loans" class="btn btn-page btn-block" type="button" onclick="changeContent(this)">$10K Term Loans</button>
+                                            </div>
+                                            
+                                    
+                                            <!-- Paste New Page or Sub-Folder Above This Line -->
+                                        </div>
+                                    </div>
+                                    <!-- End of 10K or Less Folder -->
+                                    
+                                    
+                                    
+                                    <!-- Paste New Page or Sub-Folder Above This Line -->
+                                </div>
+                            </div>
+                            <!-- End of Microloans Folder -->
+                            
+                            
                             <!-- Paste New Page or Sub-Folder Above This Line -->
                         </div>
                         <!-- End of Loan Programs -->
@@ -233,25 +289,27 @@ When pasting, remove spaces between dashes in comments (where it goes - ->)
 New Folder: 
 
 <!-- Folder name - ->
-<button id= "btn-folder-name" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseFolderName">FOLDER NAME</button>
+<button id= "btn-folder-name" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseFolderName" onclick="changeContent(this)>FOLDER NAME</button>
 <div id="collapseFolderName" class="panel-collapse collapse">
                                     
                                     
     <!-- Paste New Page or Sub-Folder Above This Line - ->
-</div>                    
+</div> 
+<!-- End of Folder - ->
 
 
 New Sub-Folder:
 
 <!-- Folder name - ->
 <div class="list-group-item">
-    <button id= "btn-folder-name" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseFolderName">FOLDER NAME</button>
+    <button id= "btn-folder-name" class="btn btn-folder btn-block" type="button" data-toggle="collapse" data-target="#collapseFolderName" onclick="changeContent(this)>FOLDER NAME</button>
     <div id="collapseFolderName" class="panel-collapse collapse">
                                     
                                     
         <!-- Paste New Page or Sub-Folder Above This Line - ->
     </div>
 </div>
+<!-- End of Sub Folder - ->
 
 
 New Page within Folder:

@@ -24,7 +24,7 @@ function changeContent(button) {
 }
 
 
-
+// Triggers search function when the enter key is pressed
 function enterSearch(event) {
     if (event.which == 13 || event.keyCode == 13) {
         search();

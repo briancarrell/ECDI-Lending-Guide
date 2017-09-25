@@ -118,7 +118,7 @@ var contentArray = {
         'Page Content': "<p>Property Insurance – this kind breaks into two kinds of property: Real Property and Personal Property. Real property refers to land, buildings and “fixtures;” personal property refers to smaller items and equipment. Usually both kinds of insurance will be included in a policy for Home Insurance – the home is insured in the event the structure itself is naturally damaged or destroyed, and the possessions inside the house will be insured from damage and, depending on the policy, theft. Same goes for Property Insurance for a business. Any clients who mortgage their home or chose to leverage their personal possessions will need to provide proof of property insurance and list ECDI as a mortgagee or loss payee.</p><br><br><br>"
     },
     
-        //End of Insurance
+        // End of Insurance
     
     // End of Lending Policies
     
@@ -131,19 +131,97 @@ var contentArray = {
         'Page Content': "<p>Insert Text Here</p><br><br><br>"
     },
     
+        // Refinance
+    
+    'Refinance': {
+        'Index': 7,
+        'File Path': "<p class='filePath'>Loan Programs > Refinance</p>",
+        'Page Title': "<h1 id='pageTitle'>Refinance</h1>",
+        'Page Content': "<p>Understanding that it is ECDI’s mission to serve entrepreneurs who face challenges in starting or growing their business, it is acknowledged that we must go over and above to ensure the sustainability of our small business borrowers.</p><p>This policy applies to any client requesting a refinance of their existing ECDI debt in order to lower their monthly payment, lower their interest rate, or to consolidate multiple existing loan into a single, new loan package. This policy applies only to existing ECDI debts, any request made for funds over and above the client’s existing debt exposure will be required to adhere to standard lending policy and process. Eligibility for the refinance will be determined on a client-by-client basis in accordance with the Equal Credit Opportunity Act and ECDI’s Nondiscrimination Policy.</p><p>Clients will be required to complete a Debt Refinance Request document. Once the request document is received by ECDI, the client will go through an expedited approval process that includes the verification of eligibility to receive federal funding. This refinance does not require updated credit assessment or background check, as long as the credit assessment and background checks were completed at the time of the original loan closing and are on file.</p><p>All refinance deals will be presented to the Internal Loan Review Committee, requiring existing ILRC voting thresholds for approval.  Any deviation from standard published interest rates for the new loan package will be presented as part of the refinance credit analysis for approval by the committee.</p><p>Closing costs shall be 1% of all non-SBA funds to be refinanced, or $150 whichever is lesser.</p><br><br><br>"
+    },
+    
+        // End of Refinance
+    
+        // Founders Signature Loan
+    
+    'Founders Signature Loan': {
+        'Index': 8,
+        'File Path': "<p class='filePath'>Loan Programs > Founders Signature Loan</p>",
+        'Page Title': "<h1 id='pageTitle'>Founders Signature Loan</h1>",
+        'Page Content': "<p>To further serve its mission of assisting small businesses and fostering job creation in Ohio, ECDI is offering a Founders’ Signature Loan to existing ECDI clients.  The Founders’ Signature Loan fills an existing credit gap by offering a small-dollar, low interest rate loan with a shorter repayment period to pre-qualified customers.  The Loan provides existing ECDI clients the opportunity to receive a quick injection of capital to take advantage of important business objectives, cover unexpected business expenses, and prepare for the future.  The product requires limited documentation by leveraging ECDI's relationships with existing clients while meeting the requirements of ECDI's funders.  The Loan will be offered through October 31st, 2017.</p><p>Loan Parameters:</p><ul><li>$1,000</li><li>No application fee or closing costs</li><li>4% interest rate</li><li>12-month repayment period</li></ul><p>Loan Package:</p><ul><li>Streamlined application containing Job Creation Form and Child Support Form</li><li>CAIVRS check</li><li>Single-page Credit Analysis</li><li>SBA Note, Personal Guarantee, and ACH Authorization Form</li><li>Funding Request</li></ul><p>Eligibility:</p><ul><li>The client must not have caused ECDI a prior loss, meaning that the client cannot be more than 90 days past due.  The Loan is available to current and past clients.</li></ul><p>Process:</p><ul><li>The Founders’ Signature Loan will be primarily be processed by the Portfolio Management Team.  The reduced documentation and streamlined eligibility requirements will allow the Loan to be quickly processed outside of th</li></ul><p>If you have any questions or clients interested in the Founders’ Signature Loan, please contact Tim Kehoe or Aaron Cornell.</p><br><br><br>"
+    },
+    
+        // End of Founders Signature Loan
+    
+        // Spring Special
+    
+    'Spring Special': {
+        'Index': 9,
+        'File Path': "<p class='filePath'>Loan Programs > Spring Special</p>",
+        'Page Title': "<h1 id='pageTitle'>Spring Special</h1>",
+        'Page Content': "<p>ECDI Executive Management has agreed to offer a loan special to existing clients. The lending criteria for the loan special is less restrictive than ECDI's regular loan program. Consequently, we are requesting your approval of the loan terms as well as the exception on the items required for the background search and processing of the loans.</p><p>Basic Terms:</p><ul><li>Spring Loan Special for EXISTING clients ONLY</li><li>$5,000 max</li><li>Must have made on time payments for last 12 months with no hardships<ul><li>Other conditions and requirements may apply</li></ul></li><li>Rate of 5% fixed</li><li>No closing fee</li><li>Collateral: First position lien on All Business Assets</li><li>Must close prior to 5/31/17</li></ul><p>Processing:</p><ul><li>Background:<ul><li>Cavirs new search</li><li>OFAC new search</li><li>USDA-ok to use search on file if address has not changed</li><li>SOS-Bus Filed and Active new search</li><li>UCC Search (ECDI in 1st) new search</li><li>Flood-ok to use search on file if address has not changed</li></ul></li><li>Loan File:<ul>Microloan App shortened version in process</li><li>Child Support Form-new</li><li>ID's-ok to use noes on file unless there is no current UCC on file and we will need to file-then a curent, unexpired ID will be required</li><li>Verify Operating agreement on file</li><li>Verify Insurance on file</li></ul></li><li>Financials/Credit:<ul><li>Credit Report-new if older than 6 months</li><li>DHL verification-12 months on-time payments with no hardships</li><li>Collection of most recent Business Tax Returns</li></ul></li><li>Other:<ul><li>ORR Cert, if applicable</li></ul></li></ul><br><br><br>"
+    },
+    
+        // End of Founders Signature Loan
+    
+        // Microloans
+    
+    'Microloans': {
+        'Index': 10,
+        'File Path': "<p class='filePath'>Loan Programs > Microloans</p>",
+        'Page Title': "<h1 id='pageTitle'>Microloans</h1>",
+        'Page Content': "<p>Insert Text Here</p><br><br><br>"
+    },
+    
+            // $10K or Less
+    
+    '$10K or Less': {
+        'Index': 11,
+        'File Path': "<p class='filePath'>Loan Programs > Microloans > $10K or Less</p>",
+        'Page Title': "<h1 id='pageTitle'>$10K or Less</h1>",
+        'Page Content': "<p>The lending policy for loans $10,000 and less has be reviewed and modified. Below are the new credit guidelines:</p><br><br><br>"
+    },
+    
+    'Launch Loan: Tier 1': {
+        'Index': 12,
+        'File Path': "<p class='filePath'>Loan Programs > Microloans > $10K or Less > Launch Loan: Tier 1</p>",
+        'Page Title': "<h1 id='pageTitle'>Launch Loan: Tier 1</h1>",
+        'Page Content': "<p>Launch Loan – Tier 1 (formerly known as the Credit Builder Loan): designed for clients that have credit issues or insufficient credit that precludes them from a traditional ECDI loan. The objective of this loan product is to help clients improve their credit situation and advance the client’s access to the financial system. The Tier 1 Launch Loan product is as follows:</p><ul><li>Loan amount up to $750.00</li><li>Nine (9) month term, fixed interest rate of 8.5%</li><li>2% Loan Closing Fee</li><li>No collateral required</li><li>Risk Rating will be a 7</li><li>Loan requests are submitted to the ECDI credit division (Ben)<ul><li>The underwriter will conduct a reduced credit analysis and work with the RM to explain past credit issues. Clients with judgements or tax liens are ineligible</li>If there are collection items on a client’s credit report, the RM should discuss the items with the client and identify why the collection occurred and what steps the client is taking to address the items. This information gathering process should take place in conjunction with the background check, prior to submittal of the CA.</li></ul></li><li>Items need for Credit Builder Loans are as follows:<ul><li>Application – COMPLETE OUTCOME TRACKER RECORD</li>Completion of a Financial Literacy course with evidence of course completion and an action plan for improving the client’s credit</li><li>2 most recent pay stubs</li><li>Tax returns – at the discretion of the RM</li><li>Certificate with Sec. of State</li><li>CAVIRS</li><li>FEMA Flood Plain Search</li><li>Child Support Form</li><li>FABCO Report</li><li>New Abbreviated Credit Analysis Write-up – the CA should include an explanation of past credit issues along with action plan to address collection items</li></ul></li></ul><br><br><br>"
+    },
+    
+    'Launch Loan: Tier 2': {
+        'Index': 13,
+        'File Path': "<p class='filePath'>Loan Programs > Microloans > $10K or Less > Launch Loan: Tier 2</p>",
+        'Page Title': "<h1 id='pageTitle'>Launch Loan: Tier 2</h1>",
+        'Page Content': "<p>Launch Loan – Tier 2 (formerly known as the Quick Loan): designed for clients that may need a quick injection of a small amount of capital to begin a project. The Tier 2 Launch Loan product is as follows:</p><ul><li>Loan amount up to $2,500.00</li><li>twelve (12) month term, fixed interest rate of 8.5%</li><li>All Business Assets UCC</li><li>Risk Rating will be a 6</li><li>Client must have a credit score of at least 590</li><li>Loan requests are submitted to the ECDI credit division (Ben)<ul><li>The underwriter will conduct a reduced credit analysis and work with the RM to explain past credit issues. Clients with judgements or tax liens are ineligible</li><li>If there are collection items on a client’s credit report, the RM should discuss the items with the client and identify why the collection occurred and what steps the client is taking to address the items. This information gathering process should take place in conjunction with the background check, prior to submittal of the CA.</li></ul></li><li>Items need for Credit Builder Loans are as follows:<ul><li>Application – COMPLETE OUTCOME TRACKER RECORD</li><li>2 most recent pay stubs</li><li>W2 report form</li><li>2 years of Tax returns – Business and Personal</li><li>Personal Financial Statement</li><li>Certificate with Sec. of State</li><li>CAVIRS</li><li>FEMA Flood Plain Search</li><li>Child Support Form</li><li>FABCO Report</li><li>New Abbreviated Credit Analysis Write-up – the CA should include an explanation of past credit issues along with action plan to address collection items</li></ul></li><li>Tier 2 Launch Loan that are part of a larger loan request should be brought before the Internal Loan Review Committee in the form of flag pole discussion</li></ul><br><br><br>"
+    },
+    
+    '$10,000 Term Loans': {
+        'Index': 14,
+        'File Path': "<p class='filePath'>Loan Programs > Microloans > $10K or Less > $10,000 Term Loans</p>",
+        'Page Title': "<h1 id='pageTitle'>$10,000 Term Loans</h1>",
+        'Page Content': "<p>$10,000 term Loans:</p><ul><li>Loan amount up to $10,000</li><li>Fixed annual interest rate range from 7.25% to 12.25%</li><li>Loan Terms 6 to 60 months</li><li>Loans require at least 50% collateral coverage</li><li>Loan requests are submitted to the ECDI credit division (Ben)<ul><li>The underwriter will conduct a reduced credit analysis</li></ul></li><li>Items needed for loans above $2,500 include but are not limited to standard underwriting credit information for ECDI packages – SEE Loan File Set-up Sheet</li></ul><br><br><br>"
+    },
+    
+            // End of $10K or Less
+    
+        // End of Microloans
+    
+        
+    
     // End of Loan Programs
     
     // Operations P+P
     
     'Operations Policies+Procedures': {
-        'Index': 7,
+        'Index': 15,
         'File Path': "<p class='filePath'>Operations Policies+Procedures</p>",
         'Page Title': "<h1 id='pageTitle'>Operations Policies+Procedures</h1>",
         'Page Content': "<p>Insert Text Here</p><br><br><br>"
     },
     
     'Insurance Requirements': {
-        'Index': 8,
+        'Index': 16,
         'File Path': "<p class='filePath'>Operations Policies+Procedures > Insurance Requirements</p>",
         'Page Title': "<h1 id='pageTitle'>Insurance Requirements</h1>",
         'Page Content': '<p>All loan recipients are required to maintain a business liability insurance policy for the business receiving ECDI funds. This policy must list ECDI as the loss payee on the policy. Certificate Holder is a notice only designation and not the same thing as loss payee. Loss payee allows ECDI to receive payment on our loan in the event of a claim on the policy.</p><p>If you ever have questions on if we are listed correctly on a policy, calling on the agent listed on the policy can often clear up any confusion.</p><p>These policies must be maintained for the life of the loan and require monitoring throughout. The DHL procedure outlined below is how that monitoring occurs.</p><button type="button" class="float btn btn-search-results" data-toggle="modal" data-target="#modal1"><img src="Images/insuranceRequirements1.png"></button><div id="modal1" class="modal fade" role="dialog"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">Image 1</h4></div><div class="modal-body"><img class="img-lg" src="Images/insuranceRequirements1.png"></div></div></div></div><p>When the declaration page or the certificate page comes in, the information is noted on the Business Form, User Defined Tab. The Policy Effective Date is the date used for entering into DHL, so you will have to override the date to correctly show the effective policy date in DHL.</p><p>For the Comment Section, please include policy number, from who, loss payee status and renewal date.</p><p>Example: "Policy SAB12345 from Acme Insurance, with ECDI listed as loss payee; policy effective through 12-10-2015"</p><div class="floatBreak"></div><button type="button" class="float btn btn-search-results" data-toggle="modal" data-target="#modal2"><img class="float" src="Images/insuranceRequirements2.png"></button><div id="modal2" class="modal fade" role="dialog"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">Image 2</h4></div><div class="modal-body"><img class="img-lg" src="Images/insuranceRequirements2.png"></div></div></div></div><p>Once the policy is entered into the Business Form, an action alert should be set so ECDI employees can follow up with the client to obtain the policy renewal. This is done on the Loan Form, Action Alert tab. All action alerts are specific to the subfund, so please set all alerts to the primary subfund of the loan (typically SBA).</p><p>Most business policies are effective for one year, so throughout the life of the loan, there should be a few renewals received.</p><p>Hit “Add”, and enter the date for when you want to be reminded. In the comments field, please be specific about what should be done.</p><p>Example: "Policy SAB12345 from Acme Insurance will expire 12-10-2015. Please contact borrower for updated insurance"</p><div class="floatBreak"></div><p>For all ECDI Insurance Policies, click <button id="Insurance" class="btn btn-search-results inline" type="button" onclick="changeContent(this)">HERE.</button></p><br><br><br>'
@@ -152,7 +230,7 @@ var contentArray = {
         // Closing
     
     'Closing': {
-        'Index': 9,
+        'Index': 17,
         'File Path': "<p class='filePath'>Operations Policies+Procedures > Closing</p>",
         'Page Title': "<h1 id='pageTitle'>Closing</h1>",
         'Page Content': "<p>Insert Text Here</p><br><br><br>"
@@ -161,14 +239,14 @@ var contentArray = {
             // Loan Docs
     
     'Loan Documents': {
-        'Index': 10,
+        'Index': 18,
         'File Path': "<p class='filePath'>Operations Policies+Procedures > Closing > Loan Documents</p>",
         'Page Title': "<h1 id='pageTitle'>Loan Documents</h1>",
         'Page Content': "<p>Insert Text Here</p><br><br><br>"
     },
     
     'Closing Instructions': {
-        'Index': 11,
+        'Index': 19,
         'File Path': "<p class='filePath'>Operations Policies+Procedures > Closing > Loan Documents > Closing Instructions</p>",
         'Page Title': "<h1 id='pageTitle'>Closing Instructions</h1>",
         'Page Content': "<h4>**WATCH SAVING… USE SAVE AS INTO CORRESPONDING FOLDER**</h4><p>L:drive  loan doc’s (FY11-12)</p><ol type='1'><li>Loan doc data sheet (info summary)<ol type='a'><li>Payments always come 30-40 days after close, on 1st or 15th; 60 = standard term</li><li>Maturity date manually needs changed</li><li>Funding sources in order</li><li>Checks</li></ol></li><li>Amortization Table</li></ol><p>->Auto Doc’s</p><ol type='1'><li>Cognovit Note<ol type='a'><li>mail to: finish & merge -> from 1:1<ol type='i'><li>With more than one guarantors, 1:2/3/4, etc. </li></ol></li><li>Must manually enter co-borrower signature/initial lines</li></ol></li><li>Personal Guarantees<ol type='a'><li>Only doc signed by guarantors</li><li>Fill in name for personal guarantors (does not auto populate) and final signature line</li><li>Fill in initials</li></ol></li><li>Business Loan Agreements<ol type='a'><li>Fill in borrowers (bottom page 2)</li><li>Fill in all lines for co-borrowers</li></ol></li><li>Security Agreement<ol type='a'><li>Watch header – year will be shoved onto line 2</li><li>Fill in all lines for signatures</li><li>Anything required by loan review comm. must be on security agreement</li><li>Use: collateral folder for specifics</li></ol></li></ol><p>->Closing Document Originals</p><p>Fill in all details for:</p><ol type='1'><li>ACH authorization</li><li>Loan Closing Receipt & Fee Receipt</li><li>Resolution for Borrowing (if partnership, LLC)</li><li>SBA Debarment (if SBA funds used)</li><li>SBA fee agreement (if SBA funds used)</li><li>Errors and Omissions Agreement</li><li>First Source Hiring</li><li>Info Release</li><li>Job Creation</li><li>Child Support Form</li></ol><br><br><br>"
@@ -183,7 +261,7 @@ var contentArray = {
     // Compliance
     
     'Compliance': {
-        'Index': 12,
+        'Index': 20,
         'File Path': "<p class='filePath'>Compliance</p>",
         'Page Title': "<h1 id='pageTitle'>Compliance</h1>",
         'Page Content': "<p>Insert Text Here</p><br><br><br>"
